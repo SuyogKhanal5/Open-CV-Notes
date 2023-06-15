@@ -17,7 +17,6 @@ class FaceDetector():
         
         if self.results.detections:
             for id, detection in enumerate(self.results.detections):
-                # mpDraw.draw_detection(img, detection) 
                 boundingBoxFromClass = detection.location_data.relative_bounding_box
 
                 height, width, channels = img.shape

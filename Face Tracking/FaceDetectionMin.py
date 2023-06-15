@@ -5,7 +5,7 @@ import time
 currTime = 0
 prevTime = 0
 
-cap = cv2.VideoCapture("Videos/1.mp4")
+cap = cv2.VideoCapture("../Videos/1.mp4")
 
 mpFaceDetection = mp.solutions.face_detection
 mpDraw = mp.solutions.drawing_utils
